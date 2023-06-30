@@ -1,0 +1,103 @@
+.container {
+	display: flex;
+	height: 100vh;
+	padding: 5rem 0 3rem 3rem;
+	background-color: rgb(253, 253, 253);
+	overflow: hidden;
+}
+
+.textContent {
+	width: 50%;
+	flex-direction: column;
+	margin-top: 2rem;
+}
+
+.textContent h2 {
+	font-size: 2.25rem;
+	font-weight: 600;
+	margin-bottom: 1.4rem;
+	opacity: 0;
+	animation: fade-in-top 0.2s ease forwards 0.1s;
+}
+
+.textContent h1 {
+	font-size: 4.4rem;
+	letter-spacing: 0.2rem;
+	margin-bottom: 2rem;
+	font-weight: 700;
+	text-shadow: 3px 4px 3px rgb(117, 117, 117);
+	line-height: 4.5rem;
+	opacity: 0;
+	animation: fade-in-top 0.2s ease forwards 0.2s;
+}
+
+.textContent p {
+	font-size: 1.25rem;
+	line-height: 1.9rem;
+	margin: 0 3rem 5rem 0;
+	letter-spacing: 0.06rem;
+	opacity: 0;
+	animation: fade-in-top 0.2s ease forwards 0.3s;
+}
+
+.link {
+	padding: 0.7rem 2.5rem;
+	text-decoration: none;
+	border: 1px solid rgb(57, 57, 57);
+	border-radius: 0.6rem;
+	color: rgb(255, 255, 255);
+	background: linear-gradient(
+		180deg,
+		rgba(66, 66, 66, 0.9) 35%,
+		rgba(156, 156, 156, 0.8) 100%
+	);
+	font-size: 1.25rem;
+	font-weight: 400;
+	opacity: 0;
+	display: inline-block;
+	transition: all 0.2s ease;
+	animation: fade-in-top 0.2s ease forwards 0.4s;
+}
+
+.link:hover {
+	background: linear-gradient(
+		180deg,
+		rgba(96, 96, 96, 0.9) 35%,
+		rgba(199, 199, 199, 0.8) 100%
+	);
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.container img {
+	opacity: 0;
+	width: 50%;
+	height: fit-content;
+	object-fit: contain;
+	padding-top: 5rem;
+	animation: scale 0.5s ease forwards 0.2s;
+}
+
+@keyframes fade-in-top {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes scale {
+	0% {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

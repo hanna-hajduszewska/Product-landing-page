@@ -38,7 +38,7 @@ export const Cart = () => {
 			<h3>Shopping cart: </h3>
 			<div className={styles.itemContainer}>
 				<img
-					src="../../../public/images/black.png"
+					src="images/black.png"
 					alt="fitbit charge 5 photo"
 				/>
 				<div className={styles.itemContent}>

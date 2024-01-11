@@ -1,42 +1,42 @@
 [
 	{
-		"icon": "../public/icons/24-hours.png",
-		"image": "../public/images/daily.jpg",
+		"icon": "icons/24-hours.png",
+		"image": "images/daily.jpg",
 		"category": "Daily Readiness",
 		"title": "Follow your body not a schedule",
 		"text": "Optimize your routine with Daily Readiness, a personalized score available with your 6-month Premium membership. Daily Readiness uses insights from your activity, sleep and heart rate variability (HRV) and lets you know if you’re ready for a workout or need to prioritize recovery."
 	},
 	{
-		"icon": "../public/icons/lotus.png",
-		"image": "../public/images/stress-management.jpg",
+		"icon": "/icons/lotus.png",
+		"image": "images/stress-management.jpg",
 		"category": "Stress Management",
 		"title": "Find your calm",
 		"text": "Understand how your body reacts to stress with a daily Stress Management Score and measure your body’s in-the-moment physical response with an on-wrist EDA Scan app. Plus, find your calm with expanded mindfulness tools and a detailed breakdown of your Stress Management Score included with your 6-month Premium membership."
 	},
 	{
-		"icon": "../public/icons/heart.png",
-		"image": "../public/images/heart-health.jpg",
+		"icon": "icons/heart.png",
+		"image": "images/heart-health.jpg",
 		"category": "Heart Health",
 		"title": "Focus on your heart",
 		"text": "Keep an eye on the muscle that moves you with a compatible ECG app that assesses your heart for atrial fibrillation-an irregular heart rhythm. Also, get heart rate notifications that let you know when you’re above or below your threshold."
 	},
 	{
-		"icon": "../public/icons/growth.png",
-		"image": "../public/images/health-metric.jpg",
+		"icon": "icons/growth.png",
+		"image": "images/health-metric.jpg",
 		"category": "Health Metrics",
 		"title": "Track trends in your wellness",
 		"text": "Identify important changes in your wellness with health metrics such as  SpO2 - the level of oxygen in your blood - heart rate variability, breathing rate and more. See your personal range and 90 day history for each metric."
 	},
 	{
-		"icon": "../public/icons/gps.png",
-		"image": "../public/images/gps.jpg",
+		"icon": "icons/gps.png",
+		"image": "images/gps.jpg",
 		"category": "Build-in GPS",
 		"title": "See your stats in real time",
 		"text": "Go phone-free on outdoor runs, hikes and rides with real-time pace & distance powered by built-in GPS. Then get a workout intensity map in the Fitbit app to see your pace and heart rate zones throughout your route. And take your runs or walks up a notch with guided audio workouts available with your 6-month Premium membership."
 	},
 	{
-		"icon": "../public/icons/premium.png",
-		"image": "../public/images/premium-membership.jpg",
+		"icon": "icons/premium.png",
+		"image": "images/premium-membership.jpg",
 		"category": "Premium Membership",
 		"title": "Level up your health & fitness",
 		"text": "Transform your insights into impact with your included 6-month Premium membership and discover inspiration with new recommended workouts, mindfulness sessions, deeper sleep insights, and more. Also, get health insights specific to your body and mind for a more complete understanding of your well -being."

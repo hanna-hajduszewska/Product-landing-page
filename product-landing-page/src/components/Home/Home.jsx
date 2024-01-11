@@ -19,7 +19,7 @@ export const Home = () => {
 					</Link>
 				</div>
 				<img
-					src="../../../public/images/black.png"
+					src="images/black.png"
 					alt="fitbit charge 5 image"
 				/>
 			</div>
